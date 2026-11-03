@@ -1,0 +1,35 @@
+# Build outputs
+build/
+.gradle/
+.kotlin/
+*.apk
+*.aab
+*.ap_
+*.dex
+output-metadata.json
+
+# Local config (contains machine-specific SDK path)
+local.properties
+
+# IDE
+.idea/
+*.iml
+.vscode/
+captures/
+
+# Logs
+*.log
+log.txt
+nohup.out
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Kotlin / Java
+*.class
+*.jar
+*.hprof
+
+# Release artifacts are committed on purpose (prebuilt APK for direct download)
+!release/*.apk
