@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Yee Music</string>
+    <string name="channel_playback">后台播放</string>
+    <string name="channel_playback_desc">播放音乐时保持前台服务运行</string>
+    <string name="playback_service_starting">正在准备播放…</string>
+</resources>

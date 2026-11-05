@@ -1,0 +1,31 @@
+# Gradle / 构建产物
+.gradle/
+build/
+app/build/
+.kotlin/
+local.properties
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# 日志
+log.txt
+logs/
+*.log
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 其他
+/captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
