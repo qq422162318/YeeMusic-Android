@@ -10,7 +10,7 @@ plugins {
 val apiBaseUrl: String =
     (findProperty("apiBaseUrl") as? String)
         ?: (findProperty("VITE_API_BASE_URL") as? String)
-        ?: "http://116.205.124.216:4000"
+        ?: "http://your-ncm-api.example.com:4000"
 
 /**
  * Hosts/IPs reachable over plain HTTP.

@@ -44,7 +44,7 @@
 ```kotlin
 val apiBaseUrl = (findProperty("apiBaseUrl") as? String)
     ?: (findProperty("VITE_API_BASE_URL") as? String)
-    ?: "http://116.205.124.216:4000"
+    ?: "http://your-ncm-api.example.com:4000"  // 生产节点用 -PapiBaseUrl 注入，勿写死在仓库里
 ```
 
 编译时覆盖：
@@ -140,6 +140,3 @@ YeeMusic 是 **AGPL-3.0**。派生的 Android 应用同样需要按 AGPL-3.0 发
 
 **已编译通过**（`./gradlew assembleDebug`，AGP 8.7.3 / Kotlin 2.0.21 / compileSdk 35）。
 目前只有一个弃用警告：`PlayerManager.kt` 里 `SimpleCache(File, CacheEvictor)` 构造函数已过时。
-
-已按 `http://116.205.124.216:4000` 节点验证过的端点：`/search/default`、`/search/suggest`、
-`/recommend/songs`、`/personal_fm`、`/lyric/new`、`/song/url/v1`、`/login/qr/key` + `create`。
