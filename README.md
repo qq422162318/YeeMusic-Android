@@ -128,7 +128,8 @@ app/src/main/java/com/yeemusic/android/
 - 没有电台/数字专辑/歌单编辑页的完整实现（只有创建、订阅、删除）。
 - 没有网页版播放地址（`web/url`），走 `/song/url/v1`。
 - 首页只取每日推荐/私人电台/最近播放，`/homepage/block/page` 的区块墙未做。
-- 云盘上传（`cloud/upload/token`）接口已实现但未接 UI。
+- 云盘上传（`cloud/upload/token`）已接入 UI，但尚未在真实节点上端到端验证过
+  （默认节点会对该接口返回 `-460` 风控）。
 - 桌面版的歌词皮肤、播放模式快捷键等 UI 细节没有搬过来。
 
 ## 许可
