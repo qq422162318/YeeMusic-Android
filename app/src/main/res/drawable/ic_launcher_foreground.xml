@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Music note, scaled to sit inside the 66dp adaptive-icon safe zone. -->
+    <group
+        android:pivotX="44.5"
+        android:pivotY="55"
+        android:scaleX="0.72"
+        android:scaleY="0.72">
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M50,20 V52.6 C46.26,50.34 41.95,49 37.5,49 C26.19,49 17,58.19 17,69.5 C17,80.81 26.19,90 37.5,90 C48.81,90 58,80.81 58,69.5 V34 H72 V20 Z" />
+    </group>
+</vector>
